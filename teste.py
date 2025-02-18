@@ -1,10 +1,10 @@
 import random
 
-# Gera um número secreto entre 1 e 10
-numero_secreto = random.randint(1, 10)
+# Gera um número secreto entre 1 e 5
+numero_secreto = random.randint(1, 5)
 
 print("Olá! Vamos jogar um jogo! 🎮")
-print("Tente adivinhar o número entre 1 e 10.")
+print("Tente adivinhar o número entre 1 e 5.")
 
 # Pede para o jogador digitar um número
 tentativa = int(input("Qual número você acha que é? "))
