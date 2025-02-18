@@ -1,6 +1,6 @@
 import random
 
-# Gera um número secreto entre 1 e 10
+# Gera um número secreto entre 1 e 5
 numero_secreto = random.randint(1, 5)
 
 print("Olá! Vamos jogar um jogo! 🎮")
