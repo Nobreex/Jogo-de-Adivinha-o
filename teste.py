@@ -13,5 +13,6 @@ tentativa = int(input("Qual número você acha que é? "))
 if tentativa == numero_secreto:
     print("Parabéns! Você acertou!")
 else:
-    print("Ah, não! O número era {numero_secreto}. Tente novamente!")
+   print("Ah, não! O número era {}. Tente novamente!".format(numero_secreto))
+
 
